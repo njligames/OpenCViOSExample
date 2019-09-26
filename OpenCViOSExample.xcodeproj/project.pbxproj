@@ -24,6 +24,7 @@
 		C152207F2321F93700255848 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C152207E2321F93700255848 /* QuartzCore.framework */; };
 		C15220812321F95500255848 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15220802321F95500255848 /* UIKit.framework */; };
 		C15220832321F95D00255848 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15220822321F95D00255848 /* Foundation.framework */; };
+		C1522085233BDC3100255848 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1522084233BDC3100255848 /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		C152207E2321F93700255848 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C15220802321F95500255848 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C15220822321F95D00255848 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1522084233BDC3100255848 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				C152207D2321F93000255848 /* CoreVideo.framework in Frameworks */,
 				C152207B2321F92600255848 /* CoreMedia.framework in Frameworks */,
 				C15220792321F91F00255848 /* CoreImage.framework in Frameworks */,
+				C1522085233BDC3100255848 /* opencv2.framework in Frameworks */,
 				C15220772321F91800255848 /* CoreGraphics.framework in Frameworks */,
 				C15220752321F90C00255848 /* AVFoundation.framework in Frameworks */,
 				C15220732321F90600255848 /* AssetsLibrary.framework in Frameworks */,
@@ -109,6 +112,7 @@
 		C152206F2321F8FE00255848 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C1522084233BDC3100255848 /* opencv2.framework */,
 				C15220822321F95D00255848 /* Foundation.framework */,
 				C15220802321F95500255848 /* UIKit.framework */,
 				C152207E2321F93700255848 /* QuartzCore.framework */,
@@ -342,6 +346,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/OpenCViOSExample",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = OpenCViOSExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +368,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/OpenCViOSExample",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = OpenCViOSExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
